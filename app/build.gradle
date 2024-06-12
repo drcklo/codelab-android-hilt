@@ -40,6 +40,8 @@ android {
                 arguments["room.incremental"] = "true"
             }
         }
+
+        testInstrumentationRunner "com.example.android.hilt.CustomTestRunner"
     }
 
     compileOptions {
